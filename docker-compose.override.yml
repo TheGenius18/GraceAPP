@@ -1,0 +1,10 @@
+services:
+  web:
+    environment:
+      - DEBUG=1
+      - DJANGO_SETTINGS_MODULE=grace_backend.settings
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    command: daphne -b 0.0.0.0 -p 8000 grace_backend.asgi:application

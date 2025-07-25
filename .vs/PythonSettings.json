@@ -1,0 +1,5 @@
+{
+  "TestFramework": "Pytest",
+  "Interpreter": "Workspace|Workspace|grace-ph1",
+  "SuppressEnvironmentCreationPrompt": true
+}
